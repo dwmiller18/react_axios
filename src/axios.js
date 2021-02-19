@@ -5,6 +5,6 @@ const instance = axios.create({
 });
 
 instance.defaults.headers.common['Authorization'] = 'AUTH TOKEN FROM INSTANCE';
-instance.defaults.headers.post['Content-Type'] = 'application/json';
+// instance.defaults.headers.post['Content-Type'] = 'application/json';
 
 export default instance;
